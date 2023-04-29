@@ -1,6 +1,10 @@
+import Navbar from "./Navbar";
+
 const Hero = () => {
   return (
-    <div className="h-screen bg-yellow-400 scroll-all snap-center">Hero</div>
+    <div className="h-screen snap-center">
+      <Navbar />
+    </div>
   );
 };
 
