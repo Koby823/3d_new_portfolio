@@ -5,7 +5,11 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div className="h-screen bg-cube-pattern bg-cover snap-y snap-mandatory scroll-smooth overflow-y-auto ">
+    <div
+      className="h-screen bg-gradient-to-r from-black
+    to-blue-950
+    animate-gradient-y snap-y snap-mandatory scroll-smooth overflow-y-auto "
+    >
       <Hero />
       <About />
       <Works />
